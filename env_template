@@ -1,0 +1,9 @@
+# porta onde o WS vai rodar
+WS_PORT=3000
+
+# conexão com o Redis que o CI4 já está publicando
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+
+# nome do canal Redis
+REDIS_CHANNEL=solicitacoes
